@@ -40,9 +40,11 @@ async function main() {
 
     const parentHash = header.parentHash.toHuman();
     
-    console.log(chain.toHuman());
+    console.log(`Chain: ${chain}`);
     console.log(`Block #${header.number}, ${header.hash}`);
-    console.log(`Parent hash: ${parentHash}`);
+    console.log(`State root:\n\t${header.stateRoot}`);
+    console.log(`Extrinsics Root:\n\t${header.extrinsicsRoot}`);
+    console.log(`Parent hash:\n\t${parentHash}`);
 
     process.exit();
 }
