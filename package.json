@@ -1,0 +1,14 @@
+{
+  "name": "polkablock",
+  "version": "0.1.0",
+  "main": "./bin/index.js",
+  "repository": "https://www.github.com/brettkolodny/polkablock",
+  "author": "Brett Kolodny <brettkolodny@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^2.2.1"
+  },
+  "bin": {
+    "polkablock": "./bin/index.js"
+  }
+}
